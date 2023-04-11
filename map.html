@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01ea8cd14daf784c176bb1ab74e58740 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01ea8cd14daf784c176bb1ab74e58740" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01ea8cd14daf784c176bb1ab74e58740 = L.map(
+                "map_01ea8cd14daf784c176bb1ab74e58740",
+                {
+                    center: [30.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_542830931adba68a484f36030dd57537 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_01ea8cd14daf784c176bb1ab74e58740);
+        
+    
+            var marker_75349c50c5be023687290e4088eb6b88 = L.marker(
+                [40.712776, -74.005974],
+                {}
+            ).addTo(map_01ea8cd14daf784c176bb1ab74e58740);
+        
+    
+            var icon_7a7ef1b878019c106ea33e1460d0eade = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75349c50c5be023687290e4088eb6b88.setIcon(icon_7a7ef1b878019c106ea33e1460d0eade);
+        
+    
+        var popup_da4da3a97ced09e1d92935e80c603207 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2968382406f646f1f129b5b11d7a9f84 = $(`<div id="html_2968382406f646f1f129b5b11d7a9f84" style="width: 100.0%; height: 100.0%;">New York City</div>`)[0];
+                popup_da4da3a97ced09e1d92935e80c603207.setContent(html_2968382406f646f1f129b5b11d7a9f84);
+            
+        
+
+        marker_75349c50c5be023687290e4088eb6b88.bindPopup(popup_da4da3a97ced09e1d92935e80c603207)
+        ;
+
+        
+    
+    
+            var marker_97a79b541912402c7d57a57cf519f540 = L.marker(
+                [52.498312, 13.447984],
+                {}
+            ).addTo(map_01ea8cd14daf784c176bb1ab74e58740);
+        
+    
+            var icon_3fa0434d33c8cc80ba5c3617e3d6462e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_97a79b541912402c7d57a57cf519f540.setIcon(icon_3fa0434d33c8cc80ba5c3617e3d6462e);
+        
+    
+        var popup_59dabdcee36aba36346272c392292eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_922da10bdcdc3db0e3d37d2dedcf26eb = $(`<div id="html_922da10bdcdc3db0e3d37d2dedcf26eb" style="width: 100.0%; height: 100.0%;">Cicero, Germany</div>`)[0];
+                popup_59dabdcee36aba36346272c392292eaa.setContent(html_922da10bdcdc3db0e3d37d2dedcf26eb);
+            
+        
+
+        marker_97a79b541912402c7d57a57cf519f540.bindPopup(popup_59dabdcee36aba36346272c392292eaa)
+        ;
+
+        
+    
+    
+            var marker_5f2e4e12bf00da18b41b49f2140a463b = L.marker(
+                [46.8409, -122.246],
+                {}
+            ).addTo(map_01ea8cd14daf784c176bb1ab74e58740);
+        
+    
+            var icon_b270a064e18406f8c2dee20b965cd282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5f2e4e12bf00da18b41b49f2140a463b.setIcon(icon_b270a064e18406f8c2dee20b965cd282);
+        
+    
+        var popup_83c9a69ddc78f41cea6c71eea934a6e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bad3526b26f7b86f0a008ac3b4b99cb = $(`<div id="html_3bad3526b26f7b86f0a008ac3b4b99cb" style="width: 100.0%; height: 100.0%;">Milton, Washington</div>`)[0];
+                popup_83c9a69ddc78f41cea6c71eea934a6e9.setContent(html_3bad3526b26f7b86f0a008ac3b4b99cb);
+            
+        
+
+        marker_5f2e4e12bf00da18b41b49f2140a463b.bindPopup(popup_83c9a69ddc78f41cea6c71eea934a6e9)
+        ;
+
+        
+    
+    
+            var marker_ab7e64da37383a8ab0dcb27e107af7f1 = L.marker(
+                [22.0824, 120.7364],
+                {}
+            ).addTo(map_01ea8cd14daf784c176bb1ab74e58740);
+        
+    
+            var icon_81d8931466f4e43c81a98dce05e7e40d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_ab7e64da37383a8ab0dcb27e107af7f1.setIcon(icon_81d8931466f4e43c81a98dce05e7e40d);
+        
+    
+        var popup_2150d801b923d995a681457cc0105ece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cc583c65c6ac25711a8c9bb44a96225f = $(`<div id="html_cc583c65c6ac25711a8c9bb44a96225f" style="width: 100.0%; height: 100.0%;">Feicuiwan National Park, Taiwan</div>`)[0];
+                popup_2150d801b923d995a681457cc0105ece.setContent(html_cc583c65c6ac25711a8c9bb44a96225f);
+            
+        
+
+        marker_ab7e64da37383a8ab0dcb27e107af7f1.bindPopup(popup_2150d801b923d995a681457cc0105ece)
+        ;
+
+        
+    
+</script>
+</html>
